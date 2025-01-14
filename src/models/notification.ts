@@ -3,8 +3,8 @@ import mongoose, { Document, Schema } from "mongoose";
 export interface INotification extends Document {
   senderId: string;
   receiverId: string;
-  threadId: string,
-  replyId: string,
+  threadId: string;
+  replyId: string;
   isThread: boolean;
   isReply: boolean;
   isUser: boolean;
